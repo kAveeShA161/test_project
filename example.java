@@ -7,3 +7,19 @@ class example{
 	}
 
 }
+
+interface Animal{
+	public void move();
+}
+
+class Dog implements Animal{
+	public void move(){
+		System.out.println("Dog is moving");
+	}
+}
+
+class Cat implements Animal{
+	public void move(){
+		System.out.println("Cat is moving");
+	}
+}
